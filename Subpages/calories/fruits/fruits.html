@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BESTCOOK</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+</head>
+
+<body>
+<div class="container">
+   <header>
+       <!-- logo -->
+       <img src="../../../image/logo.jpg.jpg" alt="logo">
+
+<!-- meniu -->
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="../../../Subpages/Shop.html" target="_blank">Shop</a>
+
+<div class="subnav">
+    <button class="subnavbtn">Holidays <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+            <a href="#christmas">Christmas</a>
+            <a href="#valentin's Day">Valentin's Day</a>
+            <a href="#easter">Easter</a>
+        </div>
+</div>
+
+
+<div class="subnav">
+   <button class="subnavbtn">Recipes <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        <a href="../../recipes/Salad/salad.html">Salad</a>
+        <a href="#soups">Soup</a>
+        <a href="#pasta">Pasta</a>
+        <a href="#asianrecipe">Asia</a>
+    </div>
+</div>
+
+<div class="subnav">
+    <button class="subnavbtn">Calories <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        <a href="#meat">Meat</a>
+        <a href="#vegetables">Vegetables</a>
+        <a href="../fruits/fruits.html">Fruits</a>
+    </div>
+</div>
+</div>
+    </header>
+</div>
+<section>
+
+    <!-- slideshow galery -->
+
+<div class="container">
+
+
+
+<div class="calori_fruits">
+    <div class="container">
+        <article>
+            <table style="width: 100%">
+                <tr class="first">
+                <th>Fruit</th>
+                <th>Calories</th>
+                <th>Protein</th>
+                <th>Fiber</th>
+                </tr>
+               <tr>
+                <td>Apple Ionatan</td>
+                   <td>52</td>
+                   <td>0.4</td>
+                   <td>2.4</td>
+                </tr>
+                <tr>
+                <td>Pears</td>
+                    <td>58</td>
+                    <td>0.4</td>
+                    <td>3.1</td>
+                </tr>
+                <tr>
+                <td>Bananas</td>
+                    <td>89</td>
+                    <td>1.1</td>
+                    <td>2.6</td>
+                </tr>
+                <tr>
+                <td>Strawberries</td>
+                    <td>32</td>
+                    <td>0.9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                <td>Grapes</td>
+                    <td>69</td>
+                    <td>0.7</td>
+                    <td>0.9</td>
+                </tr>
+                <tr>
+                <td>Pineapple</td>
+                    <td>48</td>
+                    <td>0.4</td>
+                    <td>1.4</td>
+                </tr>
+                <tr>
+                <td>Avocado</td>
+                    <td>167</td>
+                    <td>2</td>
+                    <td>6.8</td>
+                </tr>
+                <tr>
+                <td>Cranberries</td>
+                    <td>57</td>
+                    <td>0.7</td>
+                    <td>2.4</td>
+                </tr>
+                <tr>
+                <td>Cherry</td>
+                    <td>63</td>
+                    <td>1.1</td>
+                    <td>2.1</td>
+                </tr>
+                <tr>
+                <td>Plums</td>
+                    <td>59.7</td>
+                    <td>0.7</td>
+                    <td>2.1</td>
+                </tr>
+                <tr>
+                <td>Raspberry</td>
+                    <td>52</td>
+                    <td>1.2</td>
+                    <td>6.5</td>
+                </tr>
+                <tr>
+                <td>Nectarines</td>
+                    <td>47</td>
+                    <td>0.4</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                <td>Tangerines</td>
+                    <td>53</td>
+                    <td>0.8</td>
+                    <td>1.8</td>
+                </tr>
+                <tr>
+                <td>Oranges</td>
+                    <td>47</td>
+                    <td>0.9</td>
+                    <td>2.4</td>
+                </tr>
+                <tr>
+                <td>Apricots</td>
+                    <td>48</td>
+                    <td>1.4</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                <td>Peaches</td>
+                    <td>39</td>
+                    <td>0.9</td>
+                    <td>1.5</td>
+                </tr>
+                <tr>
+                <td>Quince</td>
+                    <td>57</td>
+                    <td>0.4</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                <td>Kiwi</td>
+                    <td>61</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </article>
+    </div>
+</div>
+
+
+    <div class="articole">
+        <div class="container">
+            <article>
+
+                <!-- link pe poza -->
+
+                <a href="index.html">
+                <img src="../../../image/kimbab.jpg.jpg" alt="kimbab" style="borderd:0">
+                </a>
+
+                <h2>Kimbab</h2>
+                <button type="button" onclick="Kimbab()" style="break-inside: auto">Read more  &period;&period;&period;</button>
+                <p id="recipekimbab"></p>
+                <script>
+                    function Kimbab() {
+                        document.getElementById("recipekimbab").innerHTML = "ingredients:";
+                    }
+                </script>
+            </article>
+                <article>
+                <img src="../../../image/carbonara.jpg.jpg">
+                <h2>Carbonara</h2>
+                <p>The oile is mixed with vinegar and peper. At the end this dressing is mixed with the other ingredients you have already prepared. Add more salt if is needed.</p>
+            </article>
+                <article>
+                <img src="../../../image/paste.jpg.jpg">
+                <h2>Paste with pork meat</h2>
+                <p>The oile is mixed with vinegar and peper. At the end this dressing is mixed with the other ingredients you have already prepared.</p>
+            </article>
+                <article>
+                <img src="../../../image/piure.jpg.jpg">
+                <h2>Piure with meatballs</h2>
+                <p>The oile is mixed with vinegar and peper. At the end this dressing is mixed with the other ingredients you have already prepared.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p><u>COPYRIGHT &COPY; 2019</u></p>
+
+    </footer>
+
+</body>
+
+</html>
